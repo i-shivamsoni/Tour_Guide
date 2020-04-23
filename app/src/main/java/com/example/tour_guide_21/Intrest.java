@@ -14,7 +14,7 @@ import androidx.fragment.app.Fragment;
 public class Intrest extends Fragment {
 
     View view;
-
+ 
     public Intrest() {
         // Required empty public constructor
     }

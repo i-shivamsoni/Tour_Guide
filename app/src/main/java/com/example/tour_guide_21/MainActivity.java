@@ -8,12 +8,11 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
 
+import java.util.Objects;
+
 //import android.support.v8.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
-    private ViewPagerAdapter viewPagerAdapter;
-    private TabLayout tabLayout;
-    private ViewPager viewPager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,13 +20,13 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar toolbar = findViewById(R.id.toolBar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle(getString(R.string.app_name));
+        Objects.requireNonNull(getSupportActionBar()).setTitle(getString(R.string.app_name));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         //tabbed activity
-        tabLayout = findViewById(R.id.tabLayout);
-        viewPager = findViewById(R.id.viewPager);
-        viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager());
+        TabLayout tabLayout = findViewById(R.id.tabLayout);
+        ViewPager viewPager = findViewById(R.id.viewPager);
+        ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager());
 
 
         viewPagerAdapter.addFragment(new Intrest(), "Intrest");
@@ -38,10 +37,10 @@ public class MainActivity extends AppCompatActivity {
         viewPager.setAdapter(viewPagerAdapter);
         tabLayout.setupWithViewPager(viewPager);
 
-        tabLayout.getTabAt(0).setIcon(R.drawable.ic_location);
-        tabLayout.getTabAt(1).setIcon(R.drawable.ic_iconic);
-        tabLayout.getTabAt(2).setIcon(R.drawable.ic_boudhanath);
-        tabLayout.getTabAt(3).setIcon(R.drawable.ic_fork);
+        Objects.requireNonNull(tabLayout.getTabAt(0)).setIcon(R.drawable.ic_location);
+        Objects.requireNonNull(tabLayout.getTabAt(1)).setIcon(R.drawable.ic_iconic);
+        Objects.requireNonNull(tabLayout.getTabAt(2)).setIcon(R.drawable.ic_boudhanath);
+        Objects.requireNonNull(tabLayout.getTabAt(3)).setIcon(R.drawable.ic_fork);
     }
 
 }

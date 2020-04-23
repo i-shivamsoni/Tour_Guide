@@ -9,7 +9,7 @@
     <string name="Heritage">Heritage</string>
     <string name="Restaurants">Restaurants</string>
 
-
+    <!--    Interest-->
     <string name="VanVihar">Van Vihar</string>
     <string name="VanViharDes">Van Vihar National Park is a national park, but is developed and managed as a modern zoological park. </string>
 
@@ -25,6 +25,7 @@
     <string name="LowerLake">Lower Lake</string>
     <string name="LowerLakeDes">The Lower Lake or Chhota Talaab is a lake in Bhopal, the capital of Madhya Pradesh state of India. Along with the Upper Lake, it forms the Bhoj Wetland.</string>
 
+    <!--    Restaurants-->
     <string name="Shahnama">Shahnama</string>
     <string name="ShahnamaDes">Great royal ambiance with live music, best for non-vegetarian.</string>
 
@@ -43,27 +44,37 @@
     <string name="Bapu">Bapu Ki Kutia</string>
     <string name="BapuDes">Most famous and old food restaurent in bhopal.food quality is good and testy.vairity of foods available there.</string>
 
-    <!--    <string name=""></string>-->
-    <!--    <string name=""></string>-->
+    <!--    Heritage-->
 
-    <!--    <string name=""></string>-->
-    <!--    <string name=""></string>-->
+    <string name="Bhimbetka">Bhimbetka</string>
+    <string name="BhimbetkaDes">The Bhimbetka rock shelters are an archaeological site in central India that spans the prehistoric paleolithic and mesolithic periods.</string>
 
-    <!--    <string name=""></string>-->
-    <!--    <string name=""></string>-->
+    <string name="Raisen">Raisen Fort</string>
+    <string name="RaisenDes">The Raisen fort is situated at the peek of a hill and has been known for Shiva temple and Mahashivaratri celebrations. A working ancient cannon is also placed on the hill which is used during Ramadan for the announcement of sunset.</string>
 
-    <!--    <string name=""></string>-->
-    <!--    <string name=""></string>-->
+    <string name="Bhojpur">Bhojpur</string>
+    <string name="BhojpurDes"> The Bhojeshwar Temple has 18 feet Shivalinga which is known as largest Shivalinga in the world built in ancient time. A Jain temple is also built near to the Bhojeshwar Temple.</string>
 
-    <!--    <string name=""></string>-->
-    <!--    <string name=""></string>-->
+    <string name="MotiMasjid">Moti Masjid</string>
+    <string name="MotiMasjidDes">Striking 19th-century mosque with an ornate white facade offset by a pair of imposing red towers.</string>
 
-    <!--    <string name=""></string>-->
-    <!--    <string name=""></string>-->
+    <string name="Tajul"> Taj-ul-Masajid</string>
+    <string name="TajulDes">The Taj-ul-Masajid or Tāj-ul-Masjid, is a mosque situated in Bhopal, India. It is the largest mosque in India and one of the largest mosques in Asia.</string>
 
-    <!--    <string name=""></string>-->
-    <!--    <string name=""></string>-->
+    <!--    Iconic-->
 
-    <!--    <string name=""></string>-->
-    <!--    <string name=""></string>-->
+    <string name="Bharat">Bharat Bhavan</string>
+    <string name="BharatDes">Bharat Bhavan is an autonomous multi-arts complex and museum in Bhopal, India, established and funded by the Government of Madhya Pradesh.The architect of Bhavan is Charles Correa.</string>
+
+    <string name="Yodhasthal">Yodhasthal</string>
+    <string name="YodhasthalDes">A know your army establishment open for all, free of cost. The landscape provides an insight into the nations pride, the indian army, its stories of valor and its achievements.</string>
+
+    <string name="Uday">Udayagiri Caves</string>
+    <string name="Udaydes">The Udayagiri Caves are twenty rock-cut caves near Vidisha, Madhya Pradesh from the early years of the 5th century CE. They contain some of the oldest surviving Hindu temples and iconography in India. </string>
+
+    <string name="Manu">Manuabhan tekri</string>
+    <string name="ManuDes">One can come here to watch beautiful scenery in the morning or night.</string>
+
+    <string name="National">National Museum of Humankind</string>
+    <string name="NationalDes">National Museum of Humankind or Museum of Man is an anthropology museum located in Bhopal, India, to present an integrated story of the evolution of man and culture with special reference to India.</string>
 </resources>

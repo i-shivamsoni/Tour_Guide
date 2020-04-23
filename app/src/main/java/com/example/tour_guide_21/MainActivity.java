@@ -8,6 +8,8 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
 
+//import android.support.v8.widget.Toolbar;
+
 public class MainActivity extends AppCompatActivity {
     private ViewPagerAdapter viewPagerAdapter;
     private TabLayout tabLayout;

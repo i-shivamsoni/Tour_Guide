@@ -4,7 +4,8 @@
     xmlns:tool="http://schemas.android.com/tools"
     android:id="@+id/model_layout"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp">
 
     <ImageView
         android:id="@+id/Img_view"
@@ -32,13 +33,19 @@
 
     <TextView
         android:id="@+id/tv_des"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:fontFamily="sans-serif-thin"
         android:gravity="fill_horizontal"
         android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_name"
-        tool:text="Description about the place in couple of lines, in simple words" />
+        app:layout_constraintStart_toStartOf="parent"
+        tool:text="Description about the place in couple of lines, in simple words"
+
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

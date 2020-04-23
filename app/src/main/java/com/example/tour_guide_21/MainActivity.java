@@ -29,18 +29,17 @@ public class MainActivity extends AppCompatActivity {
         ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager());
 
 
-        viewPagerAdapter.addFragment(new Intrest(), "Intrest");
-        viewPagerAdapter.addFragment(new Iconic(), "Iconic");
-        viewPagerAdapter.addFragment(new Heritage(), "Heritage");
-        viewPagerAdapter.addFragment(new Restaurents(), "Restaurents");
+        viewPagerAdapter.addFragment(new Intrest(), getString(R.string.Interest));
+        viewPagerAdapter.addFragment(new Iconic(), getString(R.string.Iconic));
+        viewPagerAdapter.addFragment(new Heritage(), getString(R.string.Heritage));
+        viewPagerAdapter.addFragment(new Restaurents(), getString(R.string.Restaurants));
 
         viewPager.setAdapter(viewPagerAdapter);
         tabLayout.setupWithViewPager(viewPager);
-
-        Objects.requireNonNull(tabLayout.getTabAt(0)).setIcon(R.drawable.ic_location);
-        Objects.requireNonNull(tabLayout.getTabAt(1)).setIcon(R.drawable.ic_iconic);
-        Objects.requireNonNull(tabLayout.getTabAt(2)).setIcon(R.drawable.ic_boudhanath);
-        Objects.requireNonNull(tabLayout.getTabAt(3)).setIcon(R.drawable.ic_fork);
+        Objects.requireNonNull(tabLayout.getTabAt(0)).setIcon(R.drawable.placeholder);
+        Objects.requireNonNull(tabLayout.getTabAt(1)).setIcon(R.drawable.iconic);
+        Objects.requireNonNull(tabLayout.getTabAt(2)).setIcon(R.drawable.boudhanath);
+        Objects.requireNonNull(tabLayout.getTabAt(3)).setIcon(R.drawable.fork);
     }
 
 }

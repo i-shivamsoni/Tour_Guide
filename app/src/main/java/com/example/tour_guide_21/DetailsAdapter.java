@@ -1,6 +1,6 @@
 package com.example.tour_guide_21;
 
-import android.app.Activity;
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,11 +15,9 @@ import java.util.ArrayList;
 
 public class DetailsAdapter extends ArrayAdapter<Details> {
 
-    public DetailsAdapter(Activity context, ArrayList<Details> words) {
-        super(context, 0, words);
-
+    public DetailsAdapter(@NonNull Context context, @NonNull ArrayList<Details> dtls) {
+        super(context, 0, dtls);
     }
-
 
     @NonNull
     @Override
@@ -36,7 +34,7 @@ public class DetailsAdapter extends ArrayAdapter<Details> {
         nameOfPlace.setText(currentdetails.getNameOfPlace());
 
         TextView desOfPlace = listItemView.findViewById(R.id.tv_des);
-        nameOfPlace.setText(currentdetails.getDesOfPlace());
+        desOfPlace.setText(currentdetails.getDesOfPlace());
 
         ImageView imageView = listItemView.findViewById(R.id.Img_view);
         imageView.setImageResource(currentdetails.getmImageResourceId());

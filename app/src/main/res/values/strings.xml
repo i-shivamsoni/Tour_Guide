@@ -1,6 +1,51 @@
 <resources>
-    <string name="app_name">Tour_Guide_21</string>
+    <string name="app_name">Tour Guide</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Interest">Interest</string>
+    <string name="Iconic">Iconic</string>
+    <string name="Heritage">Heritage</string>
+    <string name="Restaurants">Restaurants</string>
+
+
+    <string name="VanVihar">Van Vihar</string>
+    <string name="VanViharDes">Van Vihar National Park is a national park, but is developed and managed as a modern zoological park </string>
+
+    <string name="Upperlake">Upper lake</string>
+    <string name="UpperlakeDes">Bhojtal, formerly known as Upper Lake, is a large lake which lies on the western side of the capital city of Madhya Pradesh, Bhopal</string>
+
+    <string name="BoatClub">Boat Club</string>
+    <string name="BoatClubDes">There are paddle boats given on rent for 30 mins and also a ferry will take you to small island in middle of lake</string>
+
+    <string name="SairSapata">Sair Sapata</string>
+    <string name="SairSapataDes">Sair Sapata is a tourism and entertainment complex situated on the banks of the Upper Lake in Bhopal</string>
+
+    <string name="LowerLake">Lower Lake</string>
+    <string name="LowerLakeDes">The Lower Lake or Chhota Talaab is a lake in Bhopal, the capital of Madhya Pradesh state of India. Along with the Upper Lake, it forms the Bhoj Wetland</string>
+
+    <!--    <string name=""></string>-->
+    <!--    <string name=""></string>-->
+
+    <!--    <string name=""></string>-->
+    <!--    <string name=""></string>-->
+
+    <!--    <string name=""></string>-->
+    <!--    <string name=""></string>-->
+
+    <!--    <string name=""></string>-->
+    <!--    <string name=""></string>-->
+
+    <!--    <string name=""></string>-->
+    <!--    <string name=""></string>-->
+
+    <!--    <string name=""></string>-->
+    <!--    <string name=""></string>-->
+
+    <!--    <string name=""></string>-->
+    <!--    <string name=""></string>-->
+    <!--    -->
+    <!--    <string name=""></string>-->
+    <!--    <string name=""></string>-->
 </resources>

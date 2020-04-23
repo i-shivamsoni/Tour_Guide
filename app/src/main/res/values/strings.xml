@@ -11,19 +11,37 @@
 
 
     <string name="VanVihar">Van Vihar</string>
-    <string name="VanViharDes">Van Vihar National Park is a national park, but is developed and managed as a modern zoological park </string>
+    <string name="VanViharDes">Van Vihar National Park is a national park, but is developed and managed as a modern zoological park. </string>
 
     <string name="Upperlake">Upper lake</string>
-    <string name="UpperlakeDes">Bhojtal, formerly known as Upper Lake, is a large lake which lies on the western side of the capital city of Madhya Pradesh, Bhopal</string>
+    <string name="UpperlakeDes">Bhojtal, formerly known as Upper Lake, is a large lake which lies on the western side of the capital city of Madhya Pradesh, Bhopal.</string>
 
     <string name="BoatClub">Boat Club</string>
-    <string name="BoatClubDes">There are paddle boats given on rent for 30 mins and also a ferry will take you to small island in middle of lake</string>
+    <string name="BoatClubDes">There are paddle boats given on rent for 30 mins and also a ferry will take you to small island in middle of lake.</string>
 
     <string name="SairSapata">Sair Sapata</string>
-    <string name="SairSapataDes">Sair Sapata is a tourism and entertainment complex situated on the banks of the Upper Lake in Bhopal</string>
+    <string name="SairSapataDes">Sair Sapata is a tourism and entertainment complex situated on the banks of the Upper Lake in Bhopal.</string>
 
     <string name="LowerLake">Lower Lake</string>
-    <string name="LowerLakeDes">The Lower Lake or Chhota Talaab is a lake in Bhopal, the capital of Madhya Pradesh state of India. Along with the Upper Lake, it forms the Bhoj Wetland</string>
+    <string name="LowerLakeDes">The Lower Lake or Chhota Talaab is a lake in Bhopal, the capital of Madhya Pradesh state of India. Along with the Upper Lake, it forms the Bhoj Wetland.</string>
+
+    <string name="Shahnama">Shahnama</string>
+    <string name="ShahnamaDes">Great royal ambiance with live music, best for non-vegetarian.</string>
+
+    <string name="Sagffc">Sagar Gaire Fast Food Corner</string>
+    <string name="SagffcDes">You cannot resist yourself to sip a cold coffee or enjoy an ever tasty sandwich full of cheez having huge size …whenever you pass by Sagar Gaire.</string>
+
+    <string name="Sharma">Sharma Vishnu Fast Food Corner</string>
+    <string name="SharmaDes">Fast food corner known for chole khulche.</string>
+
+    <string name="Raw">Raw the Restrobar </string>
+    <string name="Rawdes"> Italian, Indian, International by Chef AJ.</string>
+
+    <string name="Underm">Under the Mango Tree</string>
+    <string name="UndermDes"> Impeccable service and reasonable food choice for vegetarians. Try Kameeri, the famous Moghul roti.</string>
+
+    <string name="Bapu">Bapu Ki Kutia</string>
+    <string name="BapuDes">Most famous and old food restaurent in bhopal.food quality is good and testy.vairity of foods available there.</string>
 
     <!--    <string name=""></string>-->
     <!--    <string name=""></string>-->
@@ -45,7 +63,7 @@
 
     <!--    <string name=""></string>-->
     <!--    <string name=""></string>-->
-    <!--    -->
+
     <!--    <string name=""></string>-->
     <!--    <string name=""></string>-->
 </resources>

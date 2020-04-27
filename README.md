@@ -1,7 +1,7 @@
 # Tour_Guide
 Tour Guide App For Bhopal City
 
-While i learning Tabbed i decided to make an app for showing my city bhopal. This app shows places in bhopal in categories like 
+While learning Tabbed activities i decided to make an app for showing my city bhopal. This app shows places in bhopal in categories like 
 * Attractions
 * Intrests
 * Food
